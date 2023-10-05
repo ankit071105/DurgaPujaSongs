@@ -1,0 +1,502 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+  background:linear-gradient(to right , red 0% , orange 50%, yellow 100%);
+    background-size: cover;
+    background-position: left;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    border: 2px solid rgb(25, 59, 132);
+    color: black !important;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+    background-color: black;
+    color: black !important;
+}
+
+nav ul li{
+    padding: 0 12px;
+    color: black;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+    color: black;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+
+    font-size: 2rem;  
+
+    font-weight: bolder;
+    font-family: 'Tiro Devanagari Hindi', serif;
+
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: 'Tiro Devanagari Hindi', serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background: url(https://image.winudf.com/v2/image/Y29tLnRhYmtlZXkuZHVyZ2FtYWFoZHdhbGxwYXBlcnNfc2NyZWVuXzBfMTUxODYyNjMxNV8wNDg/screen-0.webp?fakeurl=1&type=.webp);
+background-size: cover;
+background-position: center;
+border: 5px solid rgb(10, 27, 63);
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background: linear-gradient(to top right, #18203f 0%, rgb(17, 17, 91) 50%, #2b1139 100%);
+    border: 3px solid black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background: linear-gradient(to top right, #18203f 0%, rgb(17, 17, 91) 50%, #2b1139 100%);
+    color:whitesmoke;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;;
+}
+
+.songItem img{
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 35px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+#footer{
+  border: 3px solid rgb(10, 27, 63);
+  border-radius: 2%;
+  background: linear-gradient(to top right, #111521 0%, #410746 100%);
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;font-size: 1.3rem;
+
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    padding-bottom: 60px;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+background:linear-gradient(to right , red 0% , orange 50%, yellow 100%);
+background-attachment: fixed;
+background-size: cover;
+width: 1050px;
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+        width: 1050px;
+        font-size: 1.2rem;    color: aliceblue;
+        font-weight: bolder;
+        font-family: 'Tiro Devanagari Hindi', serif;
+    
+    }
+    .songName{
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        width: 1000px;
+
+        color: whitesmoke;
+    }
+    .songlistplay{
+        font-size: 1.8rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+        color: gainsboro;
+        
+    }
+    .container{
+      background: url(durga.jpeg);
+      background-position: center;
+      width: 1300px;
+      text-align: center;
+      align-items: center;
+
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    #footer{
+     width: 1500px;
+         }
+         nav{
+          font-family: 'Tiro Devanagari Hindi', serif;
+          width: 1500px;
+       
+      }
+      .bottom{
+        width: 1500px;
+      }
+      
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background:linear-gradient(to right , red 0% , orange 50%, yellow 100%);
+background-attachment: fixed;
+width: 100%;
+
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+    
+        font-size: 1rem;    color: aliceblue;
+        font-weight: bolder;
+        font-family: 'Tiro Devanagari Hindi', serif;
+    
+    }
+    .container{
+      background: url(durga.jpeg);
+      background-position: center;
+      width:500px;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .songName{
+        font-size: 1.9rem;
+    }
+    .bottom{
+      width:600px;
+    }
+   #footer{
+    width:605px;
+   }
+   nav{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    width:600px;
+}
+.songItem{
+  width:400px;
+  font-size: 1rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+  }
+  @media only screen and (max-width: 300px) {
+    body {
+      background:linear-gradient(to right , red 0% , orange 50%, yellow 100%);
+background-attachment: fixed;
+width: 100%;
+
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+    
+        font-size: 1rem;    
+        color: aliceblue;
+        font-weight: bolder;
+        font-family: 'Tiro Devanagari Hindi', serif;
+    
+    }
+    .container{
+      background: url(durga.jpeg);
+      background-position: center;
+      width: 250px;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .songName{
+        font-size:1.3rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+
+    }
+    .songItem{
+      width: 200px;
+      font-size: 0.9rem;
+      
+    }
+
+   #footer{
+width: 250px;
+   }
+   nav{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    width: 250px;
+}
+.bottom{
+  width: 250px;
+}
+  }
+  @media only screen and (max-width: 500px) {
+    body {
+      background:linear-gradient(to right , red 0% , orange 50%, yellow 100%);
+background-attachment: fixed;
+width: 100%;
+
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+    
+        font-size: 1rem;    color: aliceblue;
+        font-weight: bolder;
+        font-family: 'Tiro Devanagari Hindi', serif;
+    
+    }
+    .container{
+      background: url(durga.jpeg);
+      background-position: center;
+      width: 400px;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .songName{
+        font-size: 0.5rem;
+    }
+    .songItem{
+      width: 350px;
+    }
+
+   #footer{
+    width: 550px;
+   }
+   nav{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    width: 550px;
+}
+.bottom{
+  width: 550px;
+}
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background:linear-gradient(to right , red 0% , orange 50%, yellow 100%);
+background-attachment: fixed;
+width: 100%;
+
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+    
+        font-size: 1.3rem;    color: aliceblue;
+        font-weight: bolder;
+        font-family: 'Tiro Devanagari Hindi', serif;
+    
+    }
+    .container{
+      background: url(durga.jpeg);
+      background-position: center;
+      width: 400px;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .songName{
+        font-size: 0.7rem;
+    }
+    .songItem{
+      width: 350px;
+      font-size: 0.9rem;
+      
+    }
+
+   #footer{
+    width: 500px;
+   }
+   nav{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    width: 500px;
+}
+.bottom{
+  width: 500px;
+}
+  }
+  
+  
+  .ankit {
+    height: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: #333;
+  
+    border: 1px solid #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  
+  .ankit:hover {
+    color:white;
+  background-color:rgb(37, 104, 219);
+  }
+  .linkedin {
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: #333;
+    border-radius: 50%;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  
+  .linkedin:hover {
+    color:white;
+  background-color:rgb(37, 104, 219);
+  }
+  .git {
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: #333;
+    border-radius: 50%;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  
+  .git:hover {
+    color:white;
+  background-color:rgb(0, 0, 0);
+  }
+  .mail {
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: #333;
+    border-radius: 50%;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  
+  .mail:hover {
+    color:white;
+  background-color:rgb(237, 20, 20);
+  }
+  .my{
+    color: aliceblue;
+  }
+  .my:hover{
+    color: rgb(14, 14, 14);
+  }
+  @media only screen and (max-width: 150px) {
+    body {
+      background:linear-gradient(to right , red 0% , orange 50%, yellow 100%);
+background-attachment: fixed;
+width: 100%;
+
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+    
+        font-size: 1rem;    color: aliceblue;
+        font-weight: bolder;
+        font-family: 'Tiro Devanagari Hindi', serif;
+    
+    }
+    .container{
+      background: url(durga.jpeg);
+      background-position: center;
+      width: 150px;
+
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .songName{
+        font-size: 0.5rem;
+    }
+    .songItem{
+      width: 100px;
+      font-size: 0.2rem;
+      padding-right: 30px;
+      padding-left: -20px;
+    }
+
+   #footer{
+width: 200px;
+   }
+   nav{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    width: 200px;
+}
+.bottom{
+  width: 200px;
+}
+  }

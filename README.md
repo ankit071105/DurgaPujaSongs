@@ -1,2 +1,1 @@
-# DurgaPujaSongs
-A durga Puja songs Playlist
+# Spotify Clone
